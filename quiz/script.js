@@ -5,8 +5,8 @@ const questions = [
             {
                 text: "Home Tool Markup Language", correct: false
             },
-            { text: "Hyberlinks and Text Markup Language", correct: false },
-            { text: " Hyber Text Markup Language", correct: true },
+            { text: "Hyperlinks and Text Markup Language", correct: false },
+            { text: " Hyper Text Markup Language", correct: true },
 
         ]
     },
@@ -23,6 +23,20 @@ const questions = [
 
         ]
     },
+    {
+        question: "How to create Html file",
+        answers: [
+            {
+                text: "Leduke.html", correct: true
+            },
+            { text: "Leduke,html", correct: false },
+            { text: "(Leduke.html)", correct: false },
+            
+
+
+        ]
+    },
+    
     {
         question: "Choose the correct HTML element for the largest heading:",
         answers: [
@@ -114,7 +128,19 @@ const questions = [
             { text: "list", correct: false },
 
         ]
-    }
+    },
+    {
+        question: "Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?      ",
+        answers: [
+            {
+                text: "longdesc", correct: false
+            },
+            { text: "alt", correct: true },
+            { text: "src", correct: false },
+
+        ]
+    },
+    
 ];
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-button");
